@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:USB-DAC-PCM2902-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -329,11 +330,11 @@ Connection ~ 5700 2750
 Wire Wire Line
 	5700 2750 5700 2850
 Wire Wire Line
-	5700 1650 7650 1650
+	5700 1650 8000 1650
 Wire Wire Line
-	7650 1650 7650 2150
+	8000 1650 8000 2150
 Wire Wire Line
-	7650 2150 7400 2150
+	8000 2150 7400 2150
 Connection ~ 5700 1650
 $Comp
 L taobao-cp:CP1uf,50V C1
@@ -386,8 +387,8 @@ Wire Wire Line
 Wire Wire Line
 	7400 2550 8050 2550
 Wire Wire Line
-	7650 2150 8050 2150
-Connection ~ 7650 2150
+	8000 2150 8050 2150
+Connection ~ 8000 2150
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5BF5C1DB
@@ -657,4 +658,75 @@ Wire Wire Line
 	4150 2250 5950 2250
 Wire Wire Line
 	4700 2950 5400 2950
+$Comp
+L Switch:SW_Push_45deg SW1
+U 1 1 5BF5E46A
+P 4100 800
+F 0 "SW1" V 4150 950 50  0000 L CNN
+F 1 "MUTE" V 4100 950 50  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 4100 800 50  0001 C CNN
+F 3 "" H 4100 800 50  0001 C CNN
+	1    4100 800 
+	0    1    -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW2
+U 1 1 5BF5E754
+P 4100 1050
+F 0 "SW2" V 4150 900 50  0000 R CNN
+F 1 "VOL_DOWN" V 4100 900 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 4100 1050 50  0001 C CNN
+F 3 "" H 4100 1050 50  0001 C CNN
+	1    4100 1050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW3
+U 1 1 5BF5EB5C
+P 4100 1300
+F 0 "SW3" V 4150 1150 50  0000 R CNN
+F 1 "VOL_UP" V 4100 1150 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 4100 1300 50  0001 C CNN
+F 3 "" H 4100 1300 50  0001 C CNN
+	1    4100 1300
+	0    1    -1   0   
+$EndComp
+Text Label 7750 2050 2    50   ~ 0
+PIN28
+Wire Wire Line
+	7750 2050 7400 2050
+Text Label 3250 700  0    50   ~ 0
+PIN28
+Wire Wire Line
+	3250 700  4000 700 
+Wire Wire Line
+	4000 700  4000 950 
+Connection ~ 4000 700 
+Connection ~ 4000 950 
+Wire Wire Line
+	4000 950  4000 1200
+Text Label 5200 2650 0    50   ~ 0
+VOL_UP
+Text Label 5200 2550 0    50   ~ 0
+VOL_DOWN
+Text Label 5200 2450 0    50   ~ 0
+VOL_MUTE
+Wire Wire Line
+	5200 2450 5950 2450
+Wire Wire Line
+	5950 2550 5200 2550
+Wire Wire Line
+	5200 2650 5950 2650
+Text Label 4950 1400 2    50   ~ 0
+VOL_UP
+Text Label 4950 1150 2    50   ~ 0
+VOL_DOWN
+Text Label 4950 900  2    50   ~ 0
+VOL_MUTE
+Wire Wire Line
+	4950 900  4200 900 
+Wire Wire Line
+	4200 1150 4950 1150
+Wire Wire Line
+	4950 1400 4200 1400
 $EndSCHEMATC
