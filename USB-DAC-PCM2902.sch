@@ -729,4 +729,48 @@ Wire Wire Line
 	4200 1150 4950 1150
 Wire Wire Line
 	4950 1400 4200 1400
+$Comp
+L taobao-mounting-hole:MOUNT_M3 H1
+U 1 1 5BF85F10
+P 5900 6750
+F 0 "H1" H 6000 6796 50  0000 L CNN
+F 1 "MOUNT_M3" H 6000 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5900 6750 50  0001 C CNN
+F 3 "~" H 5900 6750 50  0001 C CNN
+	1    5900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M3 H2
+U 1 1 5BF85F64
+P 5900 6950
+F 0 "H2" H 6000 6996 50  0000 L CNN
+F 1 "MOUNT_M3" H 6000 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5900 6950 50  0001 C CNN
+F 3 "~" H 5900 6950 50  0001 C CNN
+	1    5900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M3 H3
+U 1 1 5BF85FB6
+P 5900 7150
+F 0 "H3" H 6000 7196 50  0000 L CNN
+F 1 "MOUNT_M3" H 6000 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5900 7150 50  0001 C CNN
+F 3 "~" H 5900 7150 50  0001 C CNN
+	1    5900 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M3 H4
+U 1 1 5BF86008
+P 5900 7350
+F 0 "H4" H 6000 7396 50  0000 L CNN
+F 1 "MOUNT_M3" H 6000 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5900 7350 50  0001 C CNN
+F 3 "~" H 5900 7350 50  0001 C CNN
+	1    5900 7350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
