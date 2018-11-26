@@ -1,20 +1,4 @@
-Cmp-Mod V01 Created by PcbNew   date = Monday, November 26, 2018 PM02:41:35 HKT
-
-BeginCmp
-TimeStamp = 5C0649C8
-Path = /5BF86008
-Reference = H4;
-ValeurCmp = MOUNT_M3;
-IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C0649C0
-Path = /5BF85FB6
-Reference = H3;
-ValeurCmp = MOUNT_M3;
-IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965;
-EndCmp
+Cmp-Mod V01 Created by PcbNew   date = Monday, November 26, 2018 PM03:40:41 HKT
 
 BeginCmp
 TimeStamp = 5C0649B8
@@ -28,6 +12,30 @@ BeginCmp
 TimeStamp = 5C0649B0
 Path = /5BF85F10
 Reference = H1;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BFBC3DF
+Path = /5BF79C91
+Reference = J2;
+ValeurCmp = PJ-320D;
+IdModule  = footprint-lib:PJ320D_3.5mm_Jack;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C0649C8
+Path = /5BF86008
+Reference = H4;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C0649C0
+Path = /5BF85FB6
+Reference = H3;
 ValeurCmp = MOUNT_M3;
 IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965;
 EndCmp
@@ -52,7 +60,7 @@ BeginCmp
 TimeStamp = 5C0250E2
 Path = /5BF5EB5C
 Reference = SW3;
-ValeurCmp = VOL_UP;
+ValeurCmp = UP;
 IdModule  = Button_Switch_THT:SW_PUSH_6mm_H4.3mm;
 EndCmp
 
@@ -60,7 +68,7 @@ BeginCmp
 TimeStamp = 5C0250C3
 Path = /5BF5E754
 Reference = SW2;
-ValeurCmp = VOL_DOWN;
+ValeurCmp = DOWN;
 IdModule  = Button_Switch_THT:SW_PUSH_6mm_H4.3mm;
 EndCmp
 
@@ -158,14 +166,6 @@ Path = /5BF4B243
 Reference = C7;
 ValeurCmp = C103,0603;
 IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C004095
-Path = /5BF79C91
-Reference = J2;
-ValeurCmp = PJ-320D;
-IdModule  = Connector_Audio:Jack_3.5mm_PJ320D_Horizontal;
 EndCmp
 
 BeginCmp
