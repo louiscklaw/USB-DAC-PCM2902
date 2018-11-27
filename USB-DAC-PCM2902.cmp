@@ -1,4 +1,44 @@
-Cmp-Mod V01 Created by PcbNew   date = Sun Nov 25 20:47:02 2018
+Cmp-Mod V01 Created by PcbNew   date = Tue Nov 27 15:46:04 2018
+
+BeginCmp
+TimeStamp = 5BFD0354
+Path = /5BF86008
+Reference = H4;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C0649C0
+Path = /5BF85FB6
+Reference = H3;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C0649B8
+Path = /5BF85F64
+Reference = H2;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C003F76
+Path = /5BF62F5E
+Reference = Y1;
+ValeurCmp = O12M;
+IdModule  = Crystal:Crystal_SMD_HC49-SD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C004095
+Path = /5BF79C91
+Reference = J2;
+ValeurCmp = PJ-320D;
+IdModule  = footprint-lib:PJ320D_3.5mm_Jack;
+EndCmp
 
 BeginCmp
 TimeStamp = 5C0649B0
@@ -22,30 +62,6 @@ Path = /5BF5C1DB
 Reference = J1;
 ValeurCmp = Conn_01x02;
 IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C0649C8
-Path = /5BF86008
-Reference = H4;
-ValeurCmp = MOUNT_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C0649C0
-Path = /5BF85FB6
-Reference = H3;
-ValeurCmp = MOUNT_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C0649B8
-Path = /5BF85F64
-Reference = H2;
-ValeurCmp = MOUNT_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965;
 EndCmp
 
 BeginCmp
@@ -161,14 +177,6 @@ IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5C004095
-Path = /5BF79C91
-Reference = J2;
-ValeurCmp = PJ-320D;
-IdModule  = Connector_Audio:Jack_3.5mm_PJ320D_Horizontal;
-EndCmp
-
-BeginCmp
 TimeStamp = 5C004058
 Path = /5BF4A375
 Reference = D1;
@@ -246,14 +254,6 @@ Path = /5BF4ABB8
 Reference = R7;
 ValeurCmp = R913,0603;
 IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5C003F76
-Path = /5BF62F5E
-Reference = Y1;
-ValeurCmp = O12M;
-IdModule  = w_crystal:crystal_hc-49s;
 EndCmp
 
 EndListe
