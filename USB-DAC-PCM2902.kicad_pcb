@@ -162,7 +162,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BFD0354)
-    (at 19.5 31.5)
+    (at 17.5 31.5)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (path /5BF86008)
@@ -182,7 +182,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C0649C0)
-    (at 43.4 -9.975)
+    (at 68.55 31.6)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (path /5BF85FB6)
@@ -263,7 +263,7 @@
   )
 
   (module footprint-lib:PJ320D_3.5mm_Jack (layer F.Cu) (tedit 5BF263F4) (tstamp 5C004095)
-    (at 49.925 27.775 180)
+    (at 53.95 27.55 180)
     (descr "Headphones with microphone connector, 3.5mm, 4 pins.")
     (tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
     (path /5BF79C91)
@@ -313,7 +313,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C0649B0)
-    (at 60.2 17.7)
+    (at 59.4 15.85)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (path /5BF85F10)
@@ -738,7 +738,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_4x5.3 (layer F.Cu) (tedit 5B3026A2) (tstamp 5C004190)
-    (at 31.12 27.965 270)
+    (at 37.02 30.265 270)
     (descr "SMT capacitor, aluminium electrolytic, 4x5.3, Vishay ")
     (tags "Capacitor Electrolytic")
     (path /5BF74DA4)
@@ -797,7 +797,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_4x5.3 (layer F.Cu) (tedit 5B3026A2) (tstamp 5C004168)
-    (at 16.31 25.65 270)
+    (at 24.25 29.65 270)
     (descr "SMT capacitor, aluminium electrolytic, 4x5.3, Vishay ")
     (tags "Capacitor Electrolytic")
     (path /5BF4C512)
@@ -856,7 +856,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_4x5.3 (layer F.Cu) (tedit 5B3026A2) (tstamp 5C004140)
-    (at 22.45 25.65 270)
+    (at 30.4 29.5 270)
     (descr "SMT capacitor, aluminium electrolytic, 4x5.3, Vishay ")
     (tags "Capacitor Electrolytic")
     (path /5BF4C6BD)
@@ -915,7 +915,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_4x5.3 (layer F.Cu) (tedit 5B3026A2) (tstamp 5C004118)
-    (at 36.62 27.99 270)
+    (at 42.52 30.29 270)
     (descr "SMT capacitor, aluminium electrolytic, 4x5.3, Vishay ")
     (tags "Capacitor Electrolytic")
     (path /5BF74EB6)
@@ -1105,7 +1105,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer B.Cu) (tedit 5B301BBE) (tstamp 5C0040A6)
-    (at 24.65 26.655 90)
+    (at 22.2 23.705 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF4B243)
@@ -1273,7 +1273,7 @@
   )
 
   (module Package_SO:SSOP-8_2.95x2.8mm_P0.65mm (layer B.Cu) (tedit 5A02F25C) (tstamp 5C004014)
-    (at 18.04 25.08)
+    (at 15.95 23.2)
     (descr "SSOP-8 2.9 x2.8mm Pitch 0.65mm")
     (tags "SSOP-8 2.95x2.8mm Pitch 0.65mm")
     (path /5BF4A0E3)
@@ -1502,7 +1502,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer B.Cu) (tedit 5B301BBD) (tstamp 5C003FA7)
-    (at 22.55 26.655 90)
+    (at 20.1 23.705 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF4AA9F)
@@ -1538,7 +1538,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer B.Cu) (tedit 5B301BBD) (tstamp 5C003F96)
-    (at 23.4 23.5 180)
+    (at 21.15 20.7 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF4ABB8)

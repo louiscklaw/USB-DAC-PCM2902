@@ -46,16 +46,16 @@
   )
   (placement
     (component MountingHole:MountingHole_2.2mm_M2_DIN965
-      (place H4 19500 -31500 front 0 (PN MOUNT_M3))
-      (place H3 43400 9975 front 0 (PN MOUNT_M3))
+      (place H4 17500 -31500 front 0 (PN MOUNT_M3))
+      (place H3 68550 -31600 front 0 (PN MOUNT_M3))
       (place H2 17500 -3500 front 0 (PN MOUNT_M3))
-      (place H1 60200 -17700 front 0 (PN MOUNT_M3))
+      (place H1 59400 -15850 front 0 (PN MOUNT_M3))
     )
     (component "Crystal:Crystal_SMD_HC49-SD"
       (place Y1 55500 -9250 front 0 (PN O12M))
     )
     (component "footprint-lib:PJ320D_3.5mm_Jack"
-      (place J2 49925 -27775 front 180 (PN "PJ-320D"))
+      (place J2 53950 -27550 front 180 (PN "PJ-320D"))
     )
     (component "footprint-lib:usb-PCB"
       (place U1 0 -15710 front 270 (PN USB_PCB))
@@ -73,28 +73,28 @@
     (component Capacitor_SMD:CP_Elec_4x5.3
       (place C2 40640 -14530 front 0 (PN CP1uf,50V))
       (place C6 48985 -20135 front 180 (PN CP1uf,50V))
-      (place C9 16310 -25650 front 270 (PN CP10uf,16V))
-      (place C11 36620 -27990 front 270 (PN CP10uf,16V))
+      (place C9 24250 -29650 front 270 (PN CP10uf,16V))
+      (place C11 42520 -30290 front 270 (PN CP10uf,16V))
     )
     (component Capacitor_SMD:CP_Elec_4x5.3::1
       (place C4 40640 -20100 front 0 (PN CP1uf,50V))
-      (place C8 31120 -27965 front 270 (PN CP10uf,16V))
-      (place C10 22450 -25650 front 270 (PN CP10uf,16V))
+      (place C8 37020 -30265 front 270 (PN CP10uf,16V))
+      (place C10 30400 -29500 front 270 (PN CP10uf,16V))
       (place C1 48985 -14725 front 180 (PN CP1uf,50V))
     )
     (component Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
       (place C3 57840 -2490 front 270 (PN C22pf,0603))
-      (place C7 24650 -26655 back 270 (PN C103,0603))
+      (place C7 22200 -23705 back 270 (PN C103,0603))
       (place R1 20890 -10990 front 90 (PN R152,0603))
       (place R3 16250 -17050 front 180 (PN R220,0603))
       (place R5 54210 -3700 front 0 (PN R106,0603))
-      (place R7 23400 -23500 back 0 (PN R913,0603))
+      (place R7 21150 -20700 back 0 (PN R913,0603))
     )
     (component Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
       (place C5 50310 -2490 front 270 (PN C22pf,0603))
       (place R2 16075 -15100 front 180 (PN R220,0603))
       (place R4 18180 -10990 front 270 (PN R681,0603))
-      (place R6 22550 -26655 back 270 (PN R184,0603))
+      (place R6 20100 -23705 back 270 (PN R184,0603))
     )
     (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
       (place D1 15430 -10990 front 90 (PN LED_GREEN))
@@ -103,7 +103,7 @@
       (place U2 29190 -17910 front 0 (PN PCM2902))
     )
     (component "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm"
-      (place U3 18040 -25080 back 180 (PN LP2951CM))
+      (place U3 15950 -23200 back 180 (PN LP2951CM))
     )
   )
   (library
