@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name USB-DAC-PCM2902-rescue)(type Legacy)(uri ${KIPRJMOD}/USB-DAC-PCM2902-rescue.lib)(options "")(descr ""))
 )
